@@ -1,6 +1,6 @@
 import React, { Component, useState } from 'react';
 import { Link } from 'react-router-dom';
-import './ListStudent.css';
+import './Styles/\ListStudent.css';
 import { Button } from 'reactstrap';
 import Modal from 'react-modal';
 import HeaderElement from '../Header/HeaderElement';

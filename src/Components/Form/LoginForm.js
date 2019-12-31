@@ -20,18 +20,18 @@ class LoginForm extends Component {
     this.setState({ [e.target.name]: e.target.value });
   }
   async handleLogin() {
-    if  (this.state.username === 'student' && this.state.password ==='123') {
-      localStorage.setItem('isLoged','true');
+    if (this.state.username === 'student' && this.state.password === '123') {
+      localStorage.setItem('isLoged', 'true');
       this.setState({
-          isLoged : true,
-          code : '0'
+        isLoged: true,
+        code: '0'
       })
     }
     else if (this.state.username === "admin" && this.state.password === '123') {
       localStorage.setItem('isLoged', 'true');
       this.setState({
-        isLoged :true,
-        code : '1'
+        isLoged: true,
+        code: '1'
       })
     }
     // const response = await axios.post('http://192.168.1.103:4000/', {
@@ -39,13 +39,13 @@ class LoginForm extends Component {
     //   passWord: this.state.password
     // })
     //   .then((res) => {
-    //     // if (res.statusText.match('OK')) {
-    //     //   localStorage.setItem('isLoged', 'true');
-    //     //   this.setState({
-    //     //     isLoged: true,
-    //     //     code: '0'
-    //     //   })
-    //     // }
+    //     if (res.statusText.match('OK')) {
+    //       localStorage.setItem('isLoged', 'true');
+    //       this.setState({
+    //         isLoged: true,
+    //         code: '0'
+    //       })
+    //     }
     //   })
     // if (response.statusText === "OK") {
     //   localStorage.setItem('isLoged', 'true');

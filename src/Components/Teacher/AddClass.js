@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './ListClass.css'
+import './Styles/ListClass.css'
 import HeaderElement from '../Header/HeaderElement';
 import MenuTeacher from '../MenuTeacher/MenuTeacher';
 import { Button } from 'reactstrap';
@@ -61,6 +61,7 @@ class AddClass extends Component {
     }
 
     Add = () => {
+        window.print()
         { this.closeModalAdd() }
     }
     openModalAdd() {

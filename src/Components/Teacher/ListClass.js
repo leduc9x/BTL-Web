@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import './ListClass.css'
+import './Styles/ListClass.css'
 class ListClass extends Component {
 
     constructor() {
